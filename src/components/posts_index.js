@@ -22,15 +22,16 @@ class PostsIndex extends Component {
   render() {
     return (
       <div>
-        <div className="text-xs-right">
-          <Link className="btn btn-primary" to="/posts/new" >
-            Add Post
+        <h2 className="text-xs-center">All Posts</h2>
+        <div className="text-xs-center col-xs-offset-3 col-xs-6">
+          <ul className="list-group">
+            {this.renderPosts()}
+          </ul>
+
+          <Link className="btn btn-primary new-post-btn" to="/posts/new" >
+            Add New Post
           </Link>
-        </div> 
-        All Posts
-        <ul className="list-group">
-          {this.renderPosts()}
-        </ul>
+        </div>
       </div>
     );
   }
