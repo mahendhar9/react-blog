@@ -9,6 +9,8 @@ import reducers from './reducers';
 import PostsIndex from "./components/posts_index";
 import PostsNew from "./components/posts_new";
 
+import './style.css';
+
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
