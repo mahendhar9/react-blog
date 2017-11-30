@@ -16,7 +16,7 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <BrowserRouter>
+    <BrowserRouter basename="/react-blog">
       <div>
         <h1 className="text-xs-center">React - Blog</h1>
         <hr />

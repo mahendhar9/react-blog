@@ -1,8 +1,8 @@
 {
-  "name": "code",
+  "name": "react-blog",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://mahendhar9.github.io/react-weather-forecast",
+  "homepage": "https://mahendhar9.github.io/react-blog",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
